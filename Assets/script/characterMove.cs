@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using script.User_Control;
 using UnityEngine;
 
 public class characterMove : MonoBehaviour
@@ -10,7 +11,7 @@ public class characterMove : MonoBehaviour
     public Vector3 fanLeft = new Vector3(-1, 0, 0);
     public const float jumpForce = 1.5f;
     public const float movementSpeed = 5;
-    private platformControl platformControl;
+    private UserControl platformControl;
 
     public string characterMode = "Stop";
     private Animator _animator;
@@ -37,7 +38,7 @@ public class characterMove : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         _animator = GetComponent<Animator>();
-        platformControl = GameObject.FindObjectOfType<platformControl>();
+        platformControl = GameObject.FindObjectOfType<UserControl>();
         switchCamera = GameObject.FindObjectOfType<switchCamera>();
         cameraLogic = GameObject.FindObjectOfType<SetupCameraLogic>();
         environmentControl = GameObject.FindObjectOfType<EnvironmentControl>();

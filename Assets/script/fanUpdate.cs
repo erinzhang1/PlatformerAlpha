@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using script.User_Control;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,7 +19,7 @@ public class fanUpdate : MonoBehaviour
     public Sprite fan8;
     public Sprite fan9;
     public Sprite fan10;
-    public GameObject fanLogic;
+    public UserControl fanLogic;
 
     void Start()
     {
@@ -28,7 +29,7 @@ public class fanUpdate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int toSet = fanLogic.GetComponent<platformControl>().fanLimit - fanLogic.GetComponent<platformControl>().fanCount;
+        int toSet = fanLogic.fanLimit - fanLogic.fanCount;
         switch(toSet)
         {
             case 0:

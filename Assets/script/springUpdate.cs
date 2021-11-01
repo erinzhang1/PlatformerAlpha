@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using script.User_Control;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,8 +19,8 @@ public class springUpdate : MonoBehaviour
     public Sprite spring8;
     public Sprite spring9;
     public Sprite spring10;
-    public GameObject springLogic;
-
+    public UserControl springLogic;
+    
     void Start()
     {
         sr = this.gameObject.GetComponent<Image>();
@@ -28,7 +29,7 @@ public class springUpdate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int toSet = springLogic.GetComponent<platformControl>().springLimit - springLogic.GetComponent<platformControl>().springCount;
+        int toSet = springLogic.springLimit - springLogic.springCount;
         switch (toSet)
         {
             case 0:
