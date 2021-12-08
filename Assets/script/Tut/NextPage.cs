@@ -11,6 +11,7 @@ public class NextPage : MonoBehaviour
     public GameObject rotateUI;
     public GameObject deleteUI;
     public GameObject startUI;
+    public GameObject cameraUI;
 
     private TutoralManagement tutoralManagement;
 
@@ -55,7 +56,7 @@ public class NextPage : MonoBehaviour
     {
         tutoralManagement.nowActive = "rotate";
         fanTutUI.SetActive(false);
-        rotateUI.SetActive(true);
+        cameraUI.SetActive(true);
     }
     
     public void rotateClickNext()
@@ -77,5 +78,12 @@ public class NextPage : MonoBehaviour
         tutoralManagement.nowActive = "delete";
         startUI.SetActive(false);
         deleteUI.SetActive(true);
+    }
+
+    public void cameraClickNext()
+    {
+        tutoralManagement.nowActive = "camera";
+        cameraUI.SetActive(false);
+        rotateUI.SetActive(true);
     }
 }
