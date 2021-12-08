@@ -26,7 +26,7 @@ namespace script.Level_Items_Script.UglyStuff
 
         private void Update()
         {
-            TargetGameObject.GetComponent<Rigidbody>().isKinematic = !GameStateChecker.isTheCharaMoving;
+            TargetGameObject.GetComponent<Collider>().isTrigger = !GameStateChecker.isTheCharaMoving;
         }
     }
 }
