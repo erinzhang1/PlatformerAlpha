@@ -35,4 +35,14 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         isPaused = true;
     }
+
+    public void mute()
+    {
+        AudioListener.volume = 0f;
+    }
+
+    public void unmute()
+    {
+        AudioListener.volume = 1f;
+    }
 }

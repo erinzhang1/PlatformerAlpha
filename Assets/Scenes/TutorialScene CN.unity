@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 4314.9473, g: 3182.1719, b: 3432.629, a: 1}
+  m_IndirectSpecularColor: {r: 4297.6367, g: 3178.1133, b: 3460.2578, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -610,7 +610,7 @@ MonoBehaviour:
   UC: {fileID: 381547540}
   Device: {fileID: 0}
   DeleteAllProgress: {fileID: 2120876019}
-  OrigPos: {x: 1151.0483, y: 94.14902, z: 0}
+  OrigPos: {x: 1144.0208, y: 92.812515, z: 0}
 --- !u!114 &107747486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -837,6 +837,7 @@ MonoBehaviour:
   rotateUI: {fileID: 223485681}
   deleteUI: {fileID: 1611501588}
   startUI: {fileID: 0}
+  cameraUI: {fileID: 0}
 --- !u!114 &138483277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1267,6 +1268,7 @@ MonoBehaviour:
   rotateUI: {fileID: 223485681}
   deleteUI: {fileID: 1611501588}
   startUI: {fileID: 598455264}
+  cameraUI: {fileID: 0}
 --- !u!114 &253797475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2792,7 +2794,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: b85b2d652091c504ab084b4990857b32, type: 3}
-  m_Color: {r: 0.9622642, g: 0.9304913, b: 0.9304913, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.0073786974}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3770,7 +3772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.009223372}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4295,6 +4297,7 @@ MonoBehaviour:
   rotateUI: {fileID: 223485681}
   deleteUI: {fileID: 0}
   startUI: {fileID: 0}
+  cameraUI: {fileID: 0}
 --- !u!114 &1318822411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4881,6 +4884,7 @@ MonoBehaviour:
   rotateUI: {fileID: 0}
   deleteUI: {fileID: 1611501588}
   startUI: {fileID: 598455264}
+  cameraUI: {fileID: 0}
 --- !u!1 &1482975912
 GameObject:
   m_ObjectHideFlags: 0
@@ -6637,6 +6641,7 @@ MonoBehaviour:
   rotateUI: {fileID: 0}
   deleteUI: {fileID: 0}
   startUI: {fileID: 598455264}
+  cameraUI: {fileID: 0}
 --- !u!114 &1839443807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6993,7 +6998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.009223372}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7163,7 +7168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: b85b2d652091c504ab084b4990857b32, type: 3}
-  m_Color: {r: 0.9622642, g: 0.9304913, b: 0.9304913, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.0073786974}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
