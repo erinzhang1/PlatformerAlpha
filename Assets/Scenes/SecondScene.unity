@@ -537,9 +537,17 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: f1ceed7cef456ec45946e95f7a78116f, type: 3}
+    - target: {fileID: 7201832973789178536, guid: 56bd0abcb3bca9c4fb5e190006f35c18, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7270868408956324066, guid: 56bd0abcb3bca9c4fb5e190006f35c18, type: 3}
       propertyPath: m_Name
       value: Bonus Icon
+      objectReference: {fileID: 0}
+    - target: {fileID: 7270868408956324066, guid: 56bd0abcb3bca9c4fb5e190006f35c18, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56bd0abcb3bca9c4fb5e190006f35c18, type: 3}
@@ -4811,7 +4819,7 @@ GameObject:
   - component: {fileID: 999895322}
   - component: {fileID: 999895321}
   - component: {fileID: 999895320}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: DynamicCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6949,9 +6957,17 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: ec3cdcd903a15f74cbb03dc143634e38, type: 3}
+    - target: {fileID: 7201832973789178536, guid: 56bd0abcb3bca9c4fb5e190006f35c18, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7270868408956324066, guid: 56bd0abcb3bca9c4fb5e190006f35c18, type: 3}
       propertyPath: m_Name
       value: Bonus Icon (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7270868408956324066, guid: 56bd0abcb3bca9c4fb5e190006f35c18, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56bd0abcb3bca9c4fb5e190006f35c18, type: 3}
