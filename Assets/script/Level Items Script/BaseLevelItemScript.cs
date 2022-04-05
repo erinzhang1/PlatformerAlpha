@@ -187,7 +187,7 @@ namespace script.Level_Items_Script
             }
             else
             {
-                targetLerpToPosition = new Vector3((float)((int) (pos.x * 2))/2, (float)((int) (pos.y * 2))/2, (float)((int) (pos.z * 2))/2);
+                targetLerpToPosition = pos;
                 JustMoved = true;
             }
         }
@@ -212,7 +212,7 @@ namespace script.Level_Items_Script
         public virtual void ClampEuler()
         {
             if(Uncontrollable) return;
-            Vector3 Regulated = new Vector3(((int) (TargetEuler.x / 90)) * 90, ((int) (TargetEuler.y / 90)) * 90, ((int) (TargetEuler.z / 90)) * 90);
+            Vector3 Regulated = TargetEuler;
             RealEuler = Vector3.Lerp(RealEuler, Regulated,  0.2f);
             this.transform.eulerAngles = RealEuler;
         }

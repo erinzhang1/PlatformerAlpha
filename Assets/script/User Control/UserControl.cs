@@ -128,27 +128,29 @@ namespace script.User_Control
                         if (DraggingRotationMinTimeRequiredForHolding.IsZeroReached(Time.deltaTime, false))
                         {
                     
-                            // Yeah Ugly but I am too lazy to be graceful :P
-                            if (RelativeDir.y > 0.7f)
-                            {
-                                targetDir *= 0;
-                                nowSelected.RotateTo(targetDir);
-                            }
-                            else if (RelativeDir.z > 0.7f)
-                            {
-                                targetDir *= 90;
-                                nowSelected.RotateTo(targetDir);
-                            }
-                            else if (RelativeDir.z < -0.7f)
-                            {
-                                targetDir *= -90;
-                                nowSelected.RotateTo(targetDir);
-                            }
-                            else if (RelativeDir.y < -0.7f)
-                            {
-                                targetDir *= -180;
-                                nowSelected.RotateTo(targetDir);
-                            }
+                            // // Yeah Ugly but I am too lazy to be graceful :P
+                            // if (RelativeDir.y > 0.7f)
+                            // {
+                            //     targetDir *= 0;
+                            //     nowSelected.RotateTo(targetDir);
+                            // }
+                            // else if (RelativeDir.z > 0.7f)
+                            // {
+                            //     targetDir *= 90;
+                            //     nowSelected.RotateTo(targetDir);
+                            // }
+                            // else if (RelativeDir.z < -0.7f)
+                            // {
+                            //     targetDir *= -90;
+                            //     nowSelected.RotateTo(targetDir);
+                            // }
+                            // else if (RelativeDir.y < -0.7f)
+                            // {
+                            //     targetDir *= -180;
+                            //     nowSelected.RotateTo(targetDir);
+                            // }
+                            nowSelected.transform.LookAt(MouseWorldPosOnXZero);
+                            nowSelected.RotateTo(nowSelected.transform.eulerAngles + (Vector3.right * 90));
                         }
                         
                     }

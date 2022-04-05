@@ -331,7 +331,7 @@ RectTransform:
   m_GameObject: {fileID: 208450902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.4, z: 1}
   m_Children: []
   m_Father: {fileID: 115003477}
   m_RootOrder: 4
@@ -929,7 +929,7 @@ RectTransform:
   m_GameObject: {fileID: 946635438}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.4, z: 1}
   m_Children: []
   m_Father: {fileID: 115003477}
   m_RootOrder: 3
@@ -1168,7 +1168,7 @@ RectTransform:
   m_GameObject: {fileID: 1245769453}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.2, z: 1}
   m_Children: []
   m_Father: {fileID: 1770065772}
   m_RootOrder: 2
@@ -1389,7 +1389,7 @@ RectTransform:
   m_GameObject: {fileID: 1301112418}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.2, z: 1}
   m_Children: []
   m_Father: {fileID: 1770065772}
   m_RootOrder: 3
@@ -1427,7 +1427,7 @@ RectTransform:
   m_GameObject: {fileID: 1392292588}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.4, z: 1}
   m_Children: []
   m_Father: {fileID: 115003477}
   m_RootOrder: 1
@@ -1560,7 +1560,7 @@ RectTransform:
   m_GameObject: {fileID: 1424373053}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.22, y: 1, z: 1}
+  m_LocalScale: {x: 1.22, y: 1.2, z: 1}
   m_Children: []
   m_Father: {fileID: 1770065772}
   m_RootOrder: 4
@@ -2164,7 +2164,7 @@ RectTransform:
   m_GameObject: {fileID: 1821169527}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.4, z: 1}
   m_Children: []
   m_Father: {fileID: 115003477}
   m_RootOrder: 2
